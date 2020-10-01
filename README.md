@@ -70,3 +70,23 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Rebase
+
+git rebase feature dev
+
+OR
+
+git checkout feature
+
+git rebase dev
+
+### Renaming & Consolidating Commits in Feature Branches
+
+  pick = use commit
+  reword = use commit, but edit the commit message
+  edit = use commit, but stop for amending
+  squash = use commit, but meld into previous commit
+  fixup = like "squash", but discard this commit's log message
+  exec = run command (the rest of the line) using shell
+  drop = remove commit
