@@ -84,9 +84,15 @@ git rebase dev
 ### Renaming & Consolidating Commits in Feature Branches
 
   pick = use commit
+  
   reword = use commit, but edit the commit message
+  
   edit = use commit, but stop for amending
+  
   squash = use commit, but meld into previous commit
+  
   fixup = like "squash", but discard this commit's log message
+  
   exec = run command (the rest of the line) using shell
+  
   drop = remove commit
