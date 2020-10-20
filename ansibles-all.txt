@@ -1,0 +1,13 @@
+Présentation
+
+Ansible permet d’installer des serveurs, il va générer des scripts Python, à partir d’un fichier yaml, qui seront exécutés en SSH sur les machines distantes.
+
+Ansible est sans agent, les machines distantes doivent être accessibles en SSH et avoir Python installé, ce qui est le cas de toutes les distributions Linux.
+
+Ansible propose des modules qui couvrent une grande partie des commandes exécutées sur un serveur : installer un paquet, écrire un fichier, redémarrer un service…
+
+Cet article va expliquer et illustrer les différents concepts d’Ansible à travers la mise en place d’un environnement LAMP (Linux, Apache, MySQL, PHP).
+
+Le projet utilisé pour illustrer ces concepts est disponible ici ansible-examples/lamp_simple at master · ansible/ansible-examples
+
+Un projet Ansible est composé de plusieurs concepts, chacun réparti dans un dossier bien distinct.
